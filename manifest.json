@@ -1,0 +1,13 @@
+{
+  "domain": "energy_sum_group",
+  "name": "Energy Sum Group",
+  "codeowners": ["@spirann"],
+  "config_flow": true,
+  "dependencies": ["sensor"],
+  "documentation": "https://github.com/spirann/ha-energy-sum-group",
+  "integration_type": "helper",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/spirann/ha-energy-sum-group/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

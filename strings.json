@@ -1,0 +1,32 @@
+{
+  "title": "Energy Sum Group",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Create an energy sum group",
+        "description": "Creates a sensor that adds up the consumption of the selected energy meters. Unlike a regular sum group, it never drops when a meter goes offline or its counter restarts, so it doesn't create spikes in the Energy dashboard. It starts at 0 and counts up from there.",
+        "data": {
+          "name": "Name",
+          "members": "Energy meters"
+        }
+      }
+    },
+    "error": {
+      "need_one_member": "Select at least one energy meter."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Edit energy sum group",
+        "description": "Meters you add start counting from their current value; meters you remove keep what they already contributed.",
+        "data": {
+          "members": "Energy meters"
+        }
+      }
+    },
+    "error": {
+      "need_one_member": "Select at least one energy meter."
+    }
+  }
+}
