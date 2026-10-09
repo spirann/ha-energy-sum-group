@@ -20,7 +20,11 @@ The total never goes down, so statistics never see a reset. It starts at 0 when 
 
 ## Installation
 
-**HACS:** add this repository as a custom repository (category *Integration*), install *Energy Sum Group*, restart Home Assistant.
+**HACS:** click the button below to open this repository in HACS on your Home Assistant, then install *Energy Sum Group* and restart Home Assistant.
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=spirann&repository=ha-energy-sum-group&category=integration)
+
+Or add it by hand: HACS > ⋮ > Custom repositories > `https://github.com/spirann/ha-energy-sum-group`, category *Integration*.
 
 **Manual:** copy `custom_components/energy_sum_group` into your `config/custom_components/` folder and restart Home Assistant.
 
